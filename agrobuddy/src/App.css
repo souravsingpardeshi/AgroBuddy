@@ -11,9 +11,7 @@ body{
 }
 .App{
   width: 100vw;
-  background-image: url("./farm1.png");
-  background-size: 100vw 70vh;
-  background-repeat: no-repeat;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
