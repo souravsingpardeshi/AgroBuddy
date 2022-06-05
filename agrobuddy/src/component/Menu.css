@@ -5,6 +5,9 @@
 .Card>img{
     width: 200px;
 }
+.CropCard>img{
+    width: 120px;
+}
 .Menu-main>h1{
     font-family: roboto;
     font-weight: 900;
@@ -25,8 +28,26 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.CropCard{
+    background-color: #fff;
+    width: 25rem;
+    padding: 5px;
+    margin: 0.6rem;
+    border-radius: 8px;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fade 2s;
+    text-align: center;
+    font-family: roboto;
+    font-size: 0.7rem;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: 0 2px 7px #37694b;
+}
 .Card{
-    background-color: #f9fbec;
+    background-color: #fff;
     width: 15rem;
     padding: 5px;
     margin: 0.6rem;
@@ -58,6 +79,10 @@
     font-size: 1rem;
     border-radius: 4px;
     box-shadow: 1px 2px 5px black;
+}
+.infcont{
+    display: flex;
+    flex-wrap: wrap;
 }
 @keyframes fade{
     0%{

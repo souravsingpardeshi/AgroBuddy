@@ -16,13 +16,12 @@ const images = [
                 <img src={logo} alt="" />
                 <h1>AgroBuddy</h1>
             </div>
-          <button>Abous us</button>
+          <button>About us</button>
         </div>
             <SimpleImageSlider
         width={"120%"}
         height={500}
         images={images}
-        showBullets={true}
         loop={true}
         autoPlay={true}
       />

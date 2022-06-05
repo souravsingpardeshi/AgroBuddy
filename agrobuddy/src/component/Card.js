@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 function Card(props) {
     return (
         <div className="Card">
             <img src={props.img} alt="" />
             <h1>{props.name}</h1>
-           <a href={props.link}> <button> click me</button></a>
+           <Link to={props.link}> <button> click me</button></Link>
         </div>
     )
 }

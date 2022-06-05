@@ -6,7 +6,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-  background-color: #fff;
+  background-color: #f9fbec;
   overflow-x: hidden;
 }
 .App{
@@ -16,4 +16,12 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
+.About_us{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.team{
+  display: flex;
+}
